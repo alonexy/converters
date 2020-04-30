@@ -1,0 +1,30 @@
+{
+    "name": "alonexy/converters",
+    "type": "library",
+    "keywords":["Converter"],
+    "description": "Is Unit of Measure Converter.",
+    "homepage": "https://github.com/alonexy/converters",
+    "license": "CC-BY-SA-4.0",
+    "authors":[
+        {
+            "name": "Alonexy",
+            "email": "alonexy@qq.com",
+            "homepage": "http://www.alonexy.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alonexy\\Converter\\": "src/",
+            "Alonexy\\Test\\": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Converter\\Converter\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
