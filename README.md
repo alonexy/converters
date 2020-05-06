@@ -1,9 +1,6 @@
-# alonexy/converters
+# 单位转换器
 
-
-## 单位转换器
-
-# 新增 质量转换器
+## 质量转换器
 - 常衡制
 - 金衡制
 - 公制
@@ -22,7 +19,7 @@ var_dump(QualityConverter::Parse(1, Quality::METRIC_TONNE, 10)->ConvertTo(Qualit
 var_dump(QualityConverter::Parse(1, Quality::AVOIR_OUNCE, 10)->ConvertTo(Quality::METRIC_GRAM,7));
 var_dump(QualityConverter::Parse(1, Quality::TROY_OUNCE, 10)->ConvertTo(Quality::METRIC_GRAM,7));
 ```
-## 常量表
+### 常量表
 |  常量   | 解释  |
 |  ----  | ----  |
 | METRIC_TONNE  | 吨 |
