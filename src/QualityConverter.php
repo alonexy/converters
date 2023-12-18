@@ -77,7 +77,7 @@ class QualityConverter extends Converter
     private static $value;
 
     private static $unit;
-    private static $SupportUnits;
+    public static $SupportUnits;
     private static $SI_Unit_Values;
 
     public function __construct($value, $unitType, $decimal)
